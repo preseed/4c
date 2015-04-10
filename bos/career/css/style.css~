@@ -1,0 +1,29 @@
+   
+  
+ 
+
+  .textbox { 
+    background: white; 
+    border: 1px solid #009fe3; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px 3px #009fe3; 
+    text-align: center;
+    color: #009fe3;
+    outline: none; 
+    height:23px; 
+    width: 275px; 
+    font-weight: bolder;
+
+  } 
+#remaining , #book {
+    color: #009fe3;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+   
+   }
+   .jumbotron
+   {
+    color: #009fe3;
+    background: white; 
+   }
