@@ -180,8 +180,7 @@ hr.small {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
-    
+    -o-background-size: cover;    
 }
 
 @media only screen and (max-width:769px){
