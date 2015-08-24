@@ -176,7 +176,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 940px;
-    background: url(../img/bg1.png) no-repeat center center scroll;
+    background-color: lightcyan;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
