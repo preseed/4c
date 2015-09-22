@@ -1,0 +1,943 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+     <meta property="og:title" content="Preseed : 4Consult" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://anythinglab.preseed.in/projects/4consult/" />
+    <meta property="og:image" content="http://entrepreneurlab.preseed.in/projects/4consult/img/metaimg.png" />
+    <meta property="og:description" content="4Consult is a full services player in consulting startups and innovative ideas, providing solutions and expertise to develop MVP’s, designing the Monetization model and Business Model with the aim of optimizing and extending the average life of an idea, the idea."/>
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>4Consult</title>
+
+    <!-- Bootstrap Core CSS -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+ /* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-bottom: 5px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 160px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	background-color: #000;
+	background-color: hsla(0, 0%, 20%, 0.9);
+	color: #fff;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #000;
+	border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+ </style>
+ 
+ <style>
+ @media only screen and (max-width: 767px) {
+ .header{
+ background:url('./img/Optimized-bg-1.png') no-repeat center center scroll ;
+ 
+ font-size:10px !important;
+ line-height:1.0;
+ }
+ 
+ .col-md-6{
+ width:50%;
+ float:left;
+ }
+ 
+ .col-md-6 a{
+ font-size:10px !important;
+ }
+ 
+ .coliphone{
+ width:96% !important;
+ }
+ 
+ .headbutton a{
+ font-size:8px !important;
+ 
+ }
+ .col-lg-10.col-lg-offset-1 {
+ margin-left:0px !important;
+ 
+ }
+ .col-sm-6, .col-md-3{
+	padding-left:0px !important;
+ }
+ 
+ .headbutton  p{
+ padding:5% !important;
+ 
+ }
+ 
+	}
+
+ 
+ </style>
+ 
+
+</head>
+
+<body onload="location='#about'">
+
+
+    <!-- Navigation -->
+    <!--<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top">Start Bootstrap</a>
+            </li>
+            <li>
+                <a href="#top">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>-->
+
+    <!-- Header -->
+	
+    <header id="top" class="header">
+	
+	
+        <div class="text-vertical-center">
+		<div  class="headbutton" style="float:right;width:10%;margin-right:5%;font-size:13px;text-decoration:none;">
+			<a href="http://4c.preseed.in/team" target="_blank"><p style="color:white;background:#428bca;padding:3%;border-radius:3px;">Team</p></a></div>
+		<div class="headbutton" style="float:right;width:10%;margin-right:3%;font-size:13px;text-decoration:none;">
+			<a href="http://4c.preseed.in/career/" target="_blank" ><p style="color:white;background:#428bca;padding:3%;border-radius:3px;">Careers</p></a>
+		</div><br><br><br>
+		<div class="container">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+          <center><img class="img-responsive img-center" src="ogo.png" width="250" height="100" class="img-thumbnail" style="PADDING-BOTTOM:10px; opacity:0.9;filter:alpha(opacity=90); margin-top:1%; margin-bottom:1%; "></center>
+		  </div>
+		  <div class="col-md-4"></div>
+		  </div>
+		  <br/><br/><br>
+			<h2 style="font-size:4.2vw;font-size:4.5vh;">Startups | SMEs | Large Corporations</h2>
+            <h3 style="font-size:3.3vw;font-size:3.4vh;">Here <a href="http://preseed.in" target="_blank" title="" style="font-size:3.3vw;font-size:3.4vh;"> Preseed </a>  manifests its art for progressive startups, SMEs and large corporations.</h3>
+            <br>
+             <h3 style="font-size:3.3vw;font-size:3.4vh;">
+             At it's core 4Consult is a startup incubator, made up of the following programs:
+             </h3>      
+
+             <h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;"><li>4Consult's Startup Leadership Mentoring(<a href="http://4c.preseed.in/slm/" target="_blank" style="color:#428bca">4CSLM</a>)</li></h3>
+            
+               <!--<h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;"><li>4Consult's Startup Acceleration Programme(<a href="http://4c.preseed.in/sap/" style="color:#428bca;" target="_blank">4CSAP</a>)</li></h3>-->
+              
+              <h3 style="font-size:3.3vw;font-size:3.4vh;">
+              Collaterally we also run
+              </h3>      
+
+
+             <h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;"><li>4Consult's Special Projects(<a href="http://4c.preseed.in/sp/" target="_blank" style="color:#428bca">4CSP</a>)</li></h3>
+
+              <h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;"><li>4Consult's Business Outsourcing Solutions(<a href="http://4c.preseed.in/bos/" target="_blank" style="color:#428bca">4CBOS</a>)</li></h3> <br>
+        
+        <!--<h4 style="font-weight:normal;color:black;font-size:3.0vw;font-size:3.0vh;font-style:italic;">4Consult has in its one year goal to create <a href="http://entrepreneurlab.preseed.in/projects/tsf/" target="_blank" style="color:#428bca">this</a> startup fund.</h4> -->
+        </div>
+        
+    </header>
+    <br>
+    <br>
+    <section id="about" class="about">
+     <center> 
+        <P style="color:#252121; font-size:5.3vw;font-size:6.4vh; ">
+          <font color="black">4</font><span style="color:#e34452;">CBOS</span>
+        </P>
+     </center> 
+    <!-- About -->
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                     <p class="lead">4Consult is a full services player in consulting startups and innovative ideas, providing solutions to develop or further develop MVPs and Business Model through -:
+                    </p>
+
+                </div>
+            </div>
+            <!-- /.row -->
+             <div class="container-fluid" id="main">
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2 " id="left">
+    
+             <div class="panel panel-default" style="padding:3%;">
+              <!--<div class="panel-heading"><a href="">Item heading<br>Item heading1</a></div>-->
+              <ul>
+                <li><h4 style="font-size:1.8vw !important;font-size:2.8vh !important;">Ideation, Whiteboarding, Thought Experimentations, Need - Value - Gap Analysis etc.
+                <h4></li>
+                <li><h4 style="font-size:1.0vw !important;font-size:2.8vh !important;">MVP Design, Prototypes, full product development and iterative testing.<h4></li>
+                 <li><h4 style="font-size:1.0vw !important;font-size:2.8vh !important;">Post - MVP Offerings - Monetization, CVP, SVP, Business Model.<h4></li>
+                <li><h4 style="font-size:1.0vw !important;font-size:2.8vh !important;">Business Model Optimizations and Pivots for better market fit.<h4></li>
+                <li><h4 style="font-size:1.0vw !important;font-size:2.8vh !important;">Business Advisory and execution - including all legal and financial concerns of the business.<h4></li>
+                <li><h4 style="font-size:1.0vw !important;font-size:2.8vh !important;">Above all, leadership and knowledge training.<h4></li>   
+             </ul>
+
+             </div>
+         </div>
+     </div>
+    </div> 
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+
+
+    <div class="col-lg-10 col-lg-offset-1 text-center">
+       <center> <h2><b>Our Services</b></h2></center>
+        <hr class="small">
+              
+    </div>
+
+     <div class="container" style="width:70%;">
+		
+          <div class="row" style="margin-left:-40px !important;" >
+             <center><div class="col-md-4 " style=" margin-bottom:50px;">
+                <center><img src="img/11111.png" width="120px" height="120px" class="img-circle"style=" border: solid grey"></center>
+                <br/>
+                <center> <h3 style="color:#000000; text-align:center;">Branding & <br/>Design</h3></center>
+             </div></center>
+
+            <center><div class="col-md-4" style="margin-bottom:50px;">
+                <center><img src="img/22222.png" width="120px" height="120px" class="img-circle" style="border:solid grey"></center>
+                <br/>
+                <center><h3 style="color:#000000">Web & App<br/>Development</h3></center> 
+                <!-- Modal -->
+                    <div class="modal fade" id="my" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel" style="font-weight:bold;font-size:24.5px;text-align:center">Web & App Development</h4>
+                          </div>
+                          <div class="modal-body">
+                         <p style="font-family:droidsans;font-size:20px;text-align:center">We serve in web and app services through our partner <a href="http://www.kodemint.com" style=" text-decoration:none" target="_blank">Kodemint</a>.</p>
+                        <br/>
+                            
+                          </div>
+                          <div class="modal-footer">
+                           
+                         <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true" >Nice !</a></button>
+                            
+                          </div> 
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+       
+            </div></center>
+            <center><div class="col-md-4" style="margin-bottom:50px;" >
+                  <center><img src="img/3333.png" width="120px" height="120px" class="img-circle" style="border:solid grey"></center>
+                  <br/>
+                 <center> <h3 style="color:#000000">Digital<br/>Marketing</h3></center>
+           
+            </div></center>
+			<hr style="border:2px solid white; width:20%;">
+            <center> <div class="col-md-4" style="margin-bottom:50px;">
+                <center> <img src="img/44444.png" width="120px" height="120px" class="img-circle" style="border:solid grey"></center>
+                <br/>
+                <center> <h3><a href="#my1" class="colo" data-toggle="modal">Legal<br/>Services</a></h3></center>
+                <!-- Modal -->
+                    <div class="modal fade" id="my1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel" style="font-weight:bold;font-size:24.5px;text-align:center">Legal Services</h4>
+                          </div>
+                          <div class="modal-body">
+                         <p style="font-family:droidsans;font-size:20px;text-align:center">We support start-ups by providing legal advisory, financial advisory, and banking advisory for one full first year of starting up against a fee of Rs. 1 Lakh.</p>
+                        <br/>
+                            
+                          </div>
+                          <div class="modal-footer">
+                           
+                         <button class="btn btn-warning" data-dismiss="modal1" aria-hidden="true">Nice!</button>
+                            
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+
+            </div></center>
+
+			 
+			<center> <div class="col-md-4" style="margin-bottom:50px;">
+                <center> <img src="img/44444.png" width="120px" height="120px" class="img-circle" style="border:solid grey"></center>
+                <br/>
+                <center> <h3><a href="#my2" class="colo" data-toggle="modal" >Startup Investment<br/>Brokering</a></h3></center>
+                <!-- Modal -->
+                    <div class="modal fade" id="my2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel" style="font-weight:bold;font-size:24.5px;text-align:center">Startup Investment Brokering</h4>
+                          </div>
+                          <div class="modal-body">
+                        <!--  <p style="font-family:droidsans;font-size:20px;text-align:center">We support start-ups by providing legal advisory, financial advisory, and banking advisory for one full first year of starting up against a fee of Rs. 1 Lakh.</p> -->
+                        <br/>
+						<h3 style="font-weight:normal;color:black;font-size:2.2vw;font-size:2.4vh;">4Consult's <a href="http://entrepreneurlab.preseed.in/projects/4consult/dealflow" target="_blank" style="color:#428bca">Startup Investment Brokering</a></h3>
+                            
+                          </div>
+                          <div class="modal-footer">
+						  
+                           
+                         <button class="btn btn-warning" data-dismiss="modal1" aria-hidden="true">Nice!</button>
+                            
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+
+            </div></center> 
+		<center> <div class="col-md-4" style="margin-bottom:50px;">
+                <center> <img src="img/film.png" width="120px" height="120px" class="img-circle" style="border:solid grey"></center>
+                <br/>
+                <center> <h3><a href="#my3" class="colo" data-toggle="modal" >Film Making</a></h3></center>
+                <!-- Modal -->
+                    <div class="modal fade" id="my3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel" style="font-weight:bold;font-size:24.5px;text-align:center">Film Making</h4>
+                          </div>
+                          <div class="modal-body">
+                         <br/>
+						<h3 style="font-weight:normal;color:black;font-size:2.2vw;font-size:2.4vh;">4Consult's Film Making(Coming Soon)</h3>
+                            
+                          </div>
+                          <div class="modal-footer">
+						  
+                           
+                         <button class="btn btn-warning" data-dismiss="modal1" aria-hidden="true">Nice!</button>
+                            
+                          </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+
+            </div></center> 
+			 	 
+    </div>
+    
+  </div> 
+  <br>
+  <br>
+  <br>         
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h3>The 4 pillars of any business endeavor that we like to get our hands dirty with:</h3>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Consumer</strong>
+                                </h4>
+                                <p>Needs, User Experience, Value</p>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Competence</strong>
+                                </h4>
+                                <p>Client's ability to deliver their products and services<br> efficiently with sustenance and scale</p>
+                                <!--<a href="#" class="btn btn-light">Learn More</a>-->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Culture</strong>
+                                </h4>
+                                <p>Influence internal as well external ecosystem through intangible contributions</p>
+                                <!--<a href="#" class="btn btn-light">Learn More</a>-->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Communication</strong>
+                                </h4>
+                                <p>Includes all types of communications;<br>i.e. Branding, Packaging, Design, Marketing etc</p>
+                                <!--<a href="#" class="btn btn-light">Learn More</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+     <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center" style="padding:3%;">
+            
+             <h3><b>A <a href="https://medium.com/preseed-anything-lab/4consult-36594410c468" target="_blank" style="color: #FFFFFF; text-decoration:underline;" title="">note</a> about 4Consult from our founder</b></h3>
+           <!--<a href="https://medium.com/preseed-anything-lab/4consult-36594410c468" target="_blank" title="">
+            <h2 style="color:red">A note about 4consult from our founder</h2></a> -->
+            <h3><b>If you wish to hire us, send us a message about your requirements and budget at  <a href="https://mail.google.com/" target="_blank" style="color: #FFFFFF; text-decoration:underline;" title="">4consult@preseed.in</a></b></h3>
+			<br/>
+		
+        </div>
+    </aside>
+
+    <!--client case study-->
+
+   <div class="container" style="width:80%;">
+    <br/>
+        <div class="group-title">
+            <h6 style="font-size:24px">Our Clients</h6>
+        </div>
+       
+       <!-- <div class="row">
+            <div class="col-md-4 ">
+            </div>-->
+		<center><div class="coliphone" style="width:80%;"><center>	
+            <div class="col-md-6 " >
+                <center><a href="#myMod" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Preseed</a>
+                </center>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myMod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Preseed</h4>
+                              </div>
+                                  <div class="modal-body">
+                                   <p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>
+                                    <br/><a href="http://www.preseed.in" target="_blank" style="font-size:20px"><center>www.preseed.in</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                  
+            </div></center>
+			<center>
+			 <div class="col-md-6 " >
+                <center><a href="#myMod1" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">InvestCare</a>
+                </center>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myMod1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">InvestCare</h4>
+                              </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>-->
+                                    <br/><a href="http://www.investcare.in/" target="_blank" style="font-size:20px"><center>www.investcare.in</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                  
+            </div></center>
+			<center>
+			 <div class="col-md-6 " >
+                <center><a href="#myMod2" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Jeet India</a>
+                </center>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myMod2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Jeet India</h4>
+                              </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>-->
+                                    <br/><a href="http://www.indiamart.com/jeetindia/" target="_blank" style="font-size:20px"><center>www.indiamart.com/jeetindia</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                  
+            </div></center>
+			<center>
+			<div class="col-md-6 " >
+                <center><a href="#myMod3" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Om Sai Global</a>
+                </center>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myMod3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Om Sai Global</h4>
+                              </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>-->
+                                    <br/><a href="http://www.omsaiglobal.com/" target="_blank" style="font-size:20px"><center>www.omsaiglobal.com</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                  
+            </div></center>
+			<center>
+			<div class="col-md-6 " >
+                <center><a href="#myMod4" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Libra Mattresses</a>
+                </center>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myMod4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Libra Mattresses</h4>
+                              </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>-->
+                                    <br/><a href="http://www.libramattres.com/" target="_blank" style="font-size:20px"><center>www.libramattres.com</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                  
+            </div></center>
+			
+			<!--<div class="col-md-4 " style="width:auto !important; margin-left:-3% !important;">
+                <center><a href="#myMod5" class="colo" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:3.0vw ;font-size:3.9vh;">Preseed Prints,</a>
+                </center>
+
+                       <!-- Modal -->
+                        <!--<div class="modal fade" id="myMod5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Preseed Prints</h4>
+                              </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>-->
+                                    <!--<br/><a href="http://preseedprints.com/" style="font-size:20px"><center>www.preseedprints.com</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content 
+                        </div><!-- /.modal-dialog 
+                    </div><!-- /.modal 
+                  
+            </div>-->
+			<center>
+			<div class="col-md-6 " >
+                <center><a href="#myMod6" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Potbelly</a>
+                </center>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myMod6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Potbelly<h4>
+                              </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>-->
+                                    <br/><a href="https://www.facebook.com/ThePotbelly/timeline" target="_blank" style="font-size:17px"><center>www.facebook.com/ThePotbelly/timeline</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                  
+            </div></center>
+			<center>
+			<div class="col-md-6 " >
+                <center><a href="#myMod7" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Alliancepoint </a>
+                </center>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myMod7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Alliancepoint</h4>
+							  </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>-->
+                                    <br/><a href="http://alliancepoint.strikingly.com/ " target="_blank" style="font-size:20px"><center>www.alliancepoint.strikingly.com</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                  
+            </div></center>
+			<center>
+			<div class="col-md-6 " >
+			<center><a href="#myMod8" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Lolly Be Healing</a>
+            </center>
+            <!-- Modal -->
+                        <div class="modal fade" id="myMod8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Lolly Be Healing</h4>
+                </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>-->
+                                    <br/><a href="http://lollybe.com/ " target="_blank" style="font-size:20px"><center>www.lollybe.com/</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+			</div></center>
+			
+			<center>
+			<div class="col-md-6 " >
+			<center><a href="#myMod9" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Shikhar Associates</a>
+            </center>
+            <!-- Modal -->
+                        <div class="modal fade" id="myMod9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Shikhar Associates</h4>
+                </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>--><br>
+								   <p style="font-size:16px;"> Coming soon</p>
+                                   <!--  <br/><a href="# " target="_blank" style="font-size:20px"><center>Coming Soon</center></a> -->
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+			</div></center>
+			
+			<center>
+			<div class="col-md-6 " >
+			<center><a href="#myMod10" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Todoed*</a>
+            </center>
+            <!-- Modal -->
+                        <div class="modal fade" id="myMod10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Todoed</h4>
+                </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>--><br>
+								    <br/><a href="http://todoed.co/ " target="_blank" style="font-size:20px"><center>www.todoed.co</center></a>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+			</div></center>
+			
+
+			
+			<center>
+			<div class="col-md-6 " >
+			<center><a href="#myMod11" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Preseed Prints*</a>
+            </center>
+            <!-- Modal -->
+                        <div class="modal fade" id="myMod11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Preseed Prints</h4>
+                </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>--><br>
+								
+                                   <br/><a href="http://preseedprints.com/ " target="_blank" style="font-size:20px"><center>www.preseedprints.com/</center></a> 
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+			</div></center>
+			
+			<center>
+			<div class="col-md-6 " >
+			<center><a href="#myMod12" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">MyIdeaList*</a>
+            </center>
+            <!-- Modal -->
+                        <div class="modal fade" id="myMod12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">MyIdeaList</h4>
+                </div>
+                                  <div class="modal-body">
+                                   <!--<p style="font-family:droidsans;font-size:20px;text-align:left"> We look after every bit of the <strong>brand</strong> of Preseed and all it's verticals. Yes, that includes all the logos, graphics, copy, typography, colors, culture, language etc. We handle every bit of the <strong>social media</strong> and <strong>content</strong> of Preseed laid out on Preseed Media Network at the bottom of Preseed's website. We also handle every bit of Preseed's <strong>web development</strong>.<br/> Trust us when we say that it is not only in the result of the work we do, that you can see what we know, it is also in the way we work, that you can see what we know. We know of the latest and the latest is what we use in our works from design tools we use to the codes we write.<br/></p>--><br>
+								   
+                                   <br/><a href="https://www.myidealist.co/ " target="_blank" style="font-size:20px"><center>www.myidealist.co/</center></a> 
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+			</div></center>
+			<center>
+			<div class="col-md-6 " >
+			<center><a href="#myMod13" class="colo thumbnail" data-toggle="modal" style="line-height:2.5; font-family:pragmatic Arial;font-size:25px;font-size:2.0vw ;font-size:2.1vh;">Code Integration*</a>
+            </center>
+            <!-- Modal -->
+                        <div class="modal fade" id="myMod13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title" id="myModalLabel" style="font-size:24.5px;text-align:center;font-weight:bold">Code Integration</h4>
+                </div>
+                                  <div class="modal-body">
+<br>
+								   <p style="font-size:16px;"> <a href="http://codeintegration.in/" target="_blank">codeintegration.in</a></p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    
+                                 <button class="btn btn-warning" data-dismiss="modal" aria-hidden="true">Nice!</button>
+                                 </div>
+                             </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+			</div></center>
+			
+			</div>   
+
+			
+			
+
+			</div>
+			    
+      
+			<br><br><br>
+			<center><div style="clear:both;">
+				<p style="font-family:Helvetica;font-size:1.8vw;font-size:2.1vh;color:#151515;">
+				*These are startups from our startup portfolio at <a href="http://4c.preseed.in/slm/" target="_blank">4CSLM</a>. <br>
+				Some of our branding, design and illustration works may be found on our <a href="https://www.behance.net/4consult" 
+        target="_blank" title="">behance</a>
+				</p>
+			</div></center>
+			
+			
+        </div>
+    </div> 
+<br/><br/><center>
+<img src="img/address-bg.png" alt="Address details">
+  <h4>Address</h4>
+<figcaption>Building-19, Second Floor, Hauz Khas Village<br/>New Delhi-110017</figcaption>
+</center>
+<br/>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <div class="pm-button">
+                        <a href="https://www.payumoney.com/paybypayumoney/#/6D45FDED81D4D5E126DFE25138AAF567">
+                            <img src="https://www.payumoney.com//media/images/payby_payumoney/buttons/112.png" />
+                        </a>
+                    </div>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/thepreseed" target="_blank" title=""><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/thepreseed" target="_blank" title=""><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.behance.net/4consult " target="_blank" title=""><img src="img/1behance.png" style="padding-bottom: 23px"/></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+					
+					
+                    <a href="http://preseed.in" target="_blank"><img class="img-responsive center-block" src="img/newlogo1.png" height="80" width="110" alt="Preseed" style="display:block;margin:0 auto 20px;"></a>
+					<center> <h5> a <a href="http://entrepreneurlab.preseed.in/" style="color:#990000" target="_blank" style="text-decoration:none">Preseed Entrepreneur Lab</a> project</h5><br>
+					<!--<p> We are located at D-157 Sector 40 Noida, Uttar Pradesh, India.</p><br>-->
+                    <p style="text-align:center;font-size:150%"><a href="http://preseed.in/legal" target="_blank" title=""> Copyright © 2015 Preseed Ventures Pvt. Ltd. | All Rights Reserved</p></a></center>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap.js"></script>
+
+</body>
+
+</html>
