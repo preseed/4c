@@ -217,7 +217,8 @@ font-size:12px !important;
 /* Services */
 
 .services {
-    padding: 50px 0;
+    padding-top : 10px;
+    padding-bottom: 50px;
 }
 
 .service-item {
@@ -310,19 +311,19 @@ footer {
     background-image: url('../img/header_cover.jpg');   
 
 }
-.about_us {
+.heading_sec {
     text-align: center;
     text-decoration: underline;
-    -webkit-text-decoration-color:  red; /* Safari */    
-    text-decoration-color: red;
+    /*-webkit-text-decoration-color:  red;  
+    text-decoration-color: red;*/
 }
 .red_text {
     color: red;
 }
 #sa {
-    color: red;
+    color: #ed1442;
     text-shadow: 1px 1px 1px #ccc;
-    font-size: 10.5em;
+    font-size: 5em;
 
 }
 /*Navigation*/
@@ -426,4 +427,13 @@ footer {
 
 .logo {
         padding-top: 30px;
+}
+
+/*Bootstrap conflicting css*/
+.text-primary {
+    color: unset !important;
+}
+.bg-primary {
+    color: unset !important;
+    background-color: unset !important;
 }
