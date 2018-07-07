@@ -21,7 +21,7 @@ body {
     text-align: center;
     vertical-align:;
     padding-bottom: 50px;
-	padding-top:5%;
+	padding-top:10%;
 }
 
 .text-vertical-center h1 {
@@ -301,6 +301,30 @@ footer {
           transition: all 0.2s ease-in-out;
 }
 
+.text_decider {
+    color: #fff;
+}
+
+/*Top background*/
+.top_handle {
+    background-image: url('../img/header_cover.jpg');   
+
+}
+.about_us {
+    text-align: center;
+    text-decoration: underline;
+    -webkit-text-decoration-color:  red; /* Safari */    
+    text-decoration-color: red;
+}
+.red_text {
+    color: red;
+}
+#sa {
+    color: red;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 10.5em;
+
+}
 /*Navigation*/
 .navbar-custom {
     margin-bottom: 0;
