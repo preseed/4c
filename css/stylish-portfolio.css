@@ -187,7 +187,7 @@ hr.small {
   -o-background-size: cover;
 }
 
-.top-container {
+.padded-container {
   display: table-cell;
   padding-bottom: 10%;
   padding-top: 10%;
