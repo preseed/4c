@@ -179,6 +179,12 @@ hr.small {
   -o-background-size: cover;
 }
 
+.top-container {
+  display: table-cell;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
 @media only screen and (max-width: 769px) {
   .header {
     height: 250px;
