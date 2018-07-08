@@ -47,6 +47,14 @@ body {
   padding: 13px 60px 10px;
 }
 
+.font-light {
+  font-weight: 300
+}
+
+.bold {
+  font-weight: bold
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -208,15 +216,10 @@ hr.small {
 
 /* About */
 
-.about {
-  padding: 50px 0;
-}
-
 /* Services */
 
 .services {
-  padding-top: 10px;
-  padding-bottom: 50px;
+  background: #212121;
 }
 
 .service-item {
@@ -315,12 +318,11 @@ footer {
     text-decoration-color: red;*/
 }
 .red_text {
-  color: red;
+  color: #ed1442;
 }
 #sa {
   color: #ed1442;
-  text-shadow: 1px 1px 1px #ccc;
-  font-size: 5em;
+  font-size: 3em;
 }
 /*Navigation*/
 .navbar-custom {
@@ -431,9 +433,6 @@ footer {
 }
 
 /*Bootstrap conflicting css*/
-.text-primary {
-  color: unset !important;
-}
 .bg-primary {
   color: unset !important;
   background-color: unset !important;
@@ -446,7 +445,7 @@ footer {
 
 .career-btn > a {
   color: white;
-  background: #428bca;
+  background: #ed1442;
   padding: 8%;
   border-radius: 3px;
   font-size: 12px;
