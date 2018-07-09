@@ -48,11 +48,11 @@ body {
 }
 
 .font-light {
-  font-weight: 300
+  font-weight: 300;
 }
 
 .bold {
-  font-weight: bold
+  font-weight: bold;
 }
 
 /* Custom Button Styles */
@@ -309,6 +309,9 @@ footer {
 /*Top background*/
 .top_handle {
   background-image: url("../img/header_cover.jpg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: center;
 }
 .heading_sec {
   text-align: center;
