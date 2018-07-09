@@ -229,15 +229,8 @@ hr.small {
 /* Callout */
 
 .callout {
-  display: table;
-  width: 100%;
-  height: 300px;
   color: #fff;
-  background: url(../img/callout.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background: #212121;
 }
 
 /* Portfolio */
@@ -271,7 +264,10 @@ hr.small {
 /* Map */
 
 .map {
-  height: 500px;
+  min-height: 500px;
+  background-image: url("../img/contact-bg1.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (max-width: 768px) {
@@ -429,7 +425,8 @@ footer {
   .logo > img {
     padding-top: 10px;
   }
-  .career-btn, .sm-links {
+  .career-btn,
+  .sm-links {
     float: right;
   }
   .sm-links {
