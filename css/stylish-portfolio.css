@@ -397,6 +397,7 @@ footer {
 @media (min-width: 768px) {
   .logo > img {
     padding-top: 10px;
+    width: 100px;
   }
   .navbar-custom {
     padding: 20px 0;
@@ -424,6 +425,7 @@ footer {
 @media (max-width: 767px) {
   .logo > img {
     padding-top: 10px;
+    width: 100px;
   }
   .career-btn,
   .sm-links {
