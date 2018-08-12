@@ -434,6 +434,9 @@ footer {
   .sm-links {
     position: relative;
   }
+  .col-xs-10, .col-xs-8 {
+    padding-left: unset;
+  }
 }
 
 /*Bootstrap conflicting css*/
