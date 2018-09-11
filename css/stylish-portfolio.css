@@ -217,7 +217,9 @@ hr.small {
 .service-item {
   margin-bottom: 30px;
 }
-
+.service-item p {
+  font-size: 14px;
+}
 /* Callout */
 
 .callout {
