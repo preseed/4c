@@ -459,10 +459,19 @@ footer a:hover {
   top: 0;
 }
 
-.career-btn > a {
+.career-btn > a{
   background: #ed1442;
   padding: 4%;
   border-radius: 3px;
   font-size: 12px;
   text-decoration: none;
+}
+.btn-pink{
+  background: #ed1442;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: 700;
 }
